@@ -1,7 +1,7 @@
 #!/bin/sh
 
 # Wrote by Zeta (2021)
-# This interfaces are from a Kali Linux
+# This interfaces are from Kali Linux
 
 # Internet basic interfaces on Unix like Systems
 # for a proper operation you must change the
