@@ -13,7 +13,7 @@
 TUN=$(/usr/sbin/ifconfig tun0 2>/dev/null )
 
 if [ "$TUN" != "" ]; then
-	echo "<txt>" " $(/usr/sbin/ifconfig tun0 | grep "inet " | awk '{print $2}')" "</txt>"
+	echo "%{F#1bbf3e}%{u-} %{F#FFFFFF}$(/usr/sbin/ifconfig tun0 | grep "inet " | awk '{print $2}')"
 else
-	echo "<txt>" "" "</txt>"
+	echo "%{F#1bbf3e}%{u-} %{F#FFFFFF}Disconnected"
 fi
